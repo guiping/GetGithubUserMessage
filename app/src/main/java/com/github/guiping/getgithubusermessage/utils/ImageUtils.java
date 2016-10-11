@@ -19,5 +19,6 @@ public class ImageUtils {
                 .crossFade()
                 .into(img);
 
+
     }
 }

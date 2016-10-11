@@ -13,6 +13,7 @@ public class UserSubscriptionsEntity {
     private int id;
     private String name;
     private String full_name;
+
     private OwnerBean owner;
     @SerializedName("private")
     private boolean privateX;

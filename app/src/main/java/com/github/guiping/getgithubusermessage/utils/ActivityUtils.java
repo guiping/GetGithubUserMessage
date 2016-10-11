@@ -33,7 +33,9 @@ public class ActivityUtils {
         if (bun != null) {
             intent.putExtras(bun);
         }
+
         activity.startActivity(intent);
+
         if (isFinish) {
             activity.finish();
         }

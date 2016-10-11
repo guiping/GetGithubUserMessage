@@ -17,6 +17,8 @@ public class UserEntity {
     private String following_url;
     private String gists_url;
     private String starred_url;
+
+
     private String subscriptions_url;
     private String organizations_url;
     private String repos_url;
